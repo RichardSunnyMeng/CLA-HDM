@@ -1,10 +1,12 @@
 # CLA-HDM
 This work is proposed in [Deep Learning Radiomics of Dual-modality Ultrasound Images for Hierarchical Diagnosis of Unexplained Cervical Lymphadenopathy](), which has been potentially accepted by *BMC Medicine*. It is a hierarchical diagnosis model for unexplained cervical lymphadenopathy or any other diseases based on ultrasound and color Doppler flow images.
 
+This work is a cooperation achievement by researchers from Lanzhou University Second Hospital and Institute of Automation CAS.
+
 ![image](https://user-images.githubusercontent.com/57392333/176902551-2c00d85d-6673-4233-95c5-a6edf35fc584.png)
 
 ## Model structure
-The structure of CLA-HDM is shown in figure b. It consists of three sub-models (figure a) and each one takes dual-modality images as input to extract different features for different sub-type levels (benign or malignant, reactive hyperplasia or tuberculous lymphadenitis in benign candidates and of lymphoma or metastatic carcinoma in malignant candidates). RoIs can be segmented by clinicians or lesion segmentation networks.
+The structure of CLA-HDM is shown in figure b. It consists of three sub-models (figure a) and each one takes dual-modality images as input to extract different features for different sub-type levels (benign or malignant, reactive hyperplasia or tuberculous lymphadenitis in benign candidates and of lymphoma or metastatic carcinoma in malignant candidates). RoIs can be segmented by clinicians or lesion segmentation networks (e.g. [CEUSegNet](https://github.com/RichardSunnyMeng/CEUSegNet).
 
 ## Training
 We trained three sub-models seperately and then fine-tuned CLA-HDM on our training dataset.
