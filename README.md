@@ -1,5 +1,5 @@
 # CLA-HDM
-  This work is proposed in [Deep Learning Radiomics of Dual-modality Ultrasound Images for Hierarchical Diagnosis of Unexplained Cervical Lymphadenopathy](), which has been potentially accepted by *BMC Medicine*. It is a hierarchical diagnosis model for unexplained cervical lymphadenopathy or any other diseases based on ultrasound and color Doppler flow images.
+&ensp; &ensp; This work is proposed in [Deep Learning Radiomics of Dual-modality Ultrasound Images for Hierarchical Diagnosis of Unexplained Cervical Lymphadenopathy](), which has been potentially accepted by *BMC Medicine*. It is a hierarchical diagnosis model for unexplained cervical lymphadenopathy or any other diseases based on ultrasound and color Doppler flow images.
 
   This work is a cooperation achievement by researchers from Lanzhou University Second Hospital and Institute of Automation CAS.
 
